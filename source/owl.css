@@ -170,36 +170,4 @@
   position: relative;
   z-index: 1;
   height: 100%;
-  width: 100%;
-}
-
-/* -----SPRITES CSS ------- */
-.bg-facebook {
-    width: 16px; height: 16px;
-    background: url('css_sprites.png') -15px -15px;
-    margin: 3.5px;
-}
-
-.bg-twitter {
-    width: 16px; height: 16px;
-    background: url('css_sprites.png') -61px -15px;
-    margin: 3.5px;
-}
-
-.bg-instagram {
-    width: 16px; height: 16px;
-    background: url('css_sprites.png') -107px -15px;
-    margin: 3.5px;
-}
-
-.bg-youtube {
-    width: 16px; height: 16px;
-    background: url('css_sprites.png') -153px -15px;
-    margin: 3.5px;
-}
-
-.bg-tumblr {
-    width: 16px; height: 16px;
-    background: url('css_sprites.png') -199px -15px;
-    margin: 3.5px;
-}
+  width: 100%; }
