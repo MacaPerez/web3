@@ -13,7 +13,7 @@ gulp.task('minjs', function() {
 
   return gulp.src('source/*.js')
     .pipe(uglify())
-    .pipe(gulp.dest('MoMa_files/'));
+    .pipe(gulp.dest('MoMA_files/'));
 });
 
 // Minify CSS
@@ -23,7 +23,7 @@ gulp.task('mincss', () => {
 
   return gulp.src('source/*.css')
     .pipe(cleanCSS({compatibility: 'ie8'}))
-    .pipe(gulp.dest('MoMa_files/'));
+    .pipe(gulp.dest('MoMA_files/'));
 });
 
 // imagemin
@@ -44,7 +44,7 @@ gulp.task('imgmin', () => {
       })
 
     ]))
-    .pipe(gulp.dest('MoMa_files/'))
+    .pipe(gulp.dest('MoMA_files/'))
 });
 
 gulp.task('watch', function() {
